@@ -36,5 +36,6 @@ numInicial = 5
 numFinal = 20
 multiplo = 4
 
-for f in range(5, 21, 4):
-    print(f)
+for x in range(numInicial, numFinal + 1):
+    if x % multiplo == 0:
+        print(x)
